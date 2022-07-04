@@ -1,0 +1,45 @@
+h1{
+    font-size: 50px;
+    font-weight: 800;
+}
+
+
+
+#header{
+    font-family: 'Roboto Slab', serif;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.main_head{
+    display: flex;
+}
+.head_text{
+    width: 50%;
+    padding-top: 150px;
+}
+.head_text span{
+    color: tomato;
+}
+.head_text h1{
+    color: gray;
+}
+.head_text p{
+    color: gray;
+    font-size: 16px;
+    font-weight: 400;
+    padding-bottom: 20px;
+}
+.head_text a{
+    text-decoration: none;
+    padding: 20px 40px;
+    border-radius: 40px;
+    background-color: tomato;
+    color: #ffff;
+    font-weight: 700;
+}
+.head_img{
+    width: 50%;
+}
+.head_img img{
+    width: 100%;
+}
