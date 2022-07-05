@@ -97,7 +97,9 @@ p{
 }
 /* about part end */
 /* recipie part start */
-
+#recipies{
+    padding-bottom: 50px;
+}
 .recipie_head {
     text-align: center;
 }
@@ -112,6 +114,7 @@ p{
     width: 40%;
     border: 30px solid whitesmoke;
     border-radius: 10px;
+    
     
 }
 .recipies_img01 img {
@@ -133,3 +136,39 @@ p{
     color: #000;
 }
 /* recipie part end */
+/* lasr part start */
+#last_part{
+    padding-bottom: 100px;
+}
+.last_head{
+    background-color: whitesmoke;
+    display: flex;
+    width: 80%;
+    margin: 0 100px ;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px gainsboro;
+    
+}
+.last_item{
+    padding: 0 100px;
+    text-align: start;
+}
+/* lasr part end*/
+#footer{
+    height: 400px;
+    width: 100%;
+    background-color: rgb(3, 1, 12);
+}
+.footer_text h1{
+    color: gray;
+    padding-top: 50px;
+}
+.footer_text span{
+    color: orangered;
+}
+.footer_text p{
+    color: gray;
+}
+.footer_text{
+    text-align: center;
+}
