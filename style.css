@@ -7,7 +7,14 @@ h2{
     font-weight: 800;
     color: gray;
 }
-
+h3{
+    font-size: 30px;
+    font-weight: 600;
+}
+p{
+    font-size: 16px;
+    font-weight: 400;
+}
 
 #header{
     font-family: 'Roboto Slab', serif;
@@ -65,6 +72,7 @@ h2{
 .about_img img{
     width: 100%;
     height: 100%;
+    padding-bottom: 50px;
 }
 .about_text{
     width: 50%;
@@ -85,5 +93,43 @@ h2{
     background-color: tomato;
     color: #ffff;
     font-weight: 700;
+    
 }
 /* about part end */
+/* recipie part start */
+
+.recipie_head {
+    text-align: center;
+}
+.recipie_head p{
+    padding: 0 415px; 
+}
+.recipies_main{
+    display: flex;
+    gap: 30px;
+}
+.recipies_item{
+    width: 40%;
+    border: 30px solid whitesmoke;
+    border-radius: 10px;
+    
+}
+.recipies_img01 img {
+    width: 100%;
+    border-radius: 15px;
+    height: 300px;
+    
+   
+}
+.recipies_img02 img{
+    width: 100%;
+    border-radius: 15px;
+}
+.recipie_item_margin01{
+    margin-left: 40px;
+}
+.recipies_text{
+    width: 430px;
+    color: #000;
+}
+/* recipie part end */
